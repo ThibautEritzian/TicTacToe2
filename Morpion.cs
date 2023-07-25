@@ -8,6 +8,10 @@ namespace POO2
 {
     class Morpion
     {
+        /// <summary>
+        /// Afiche le tableau et le stock dans une variable AfficherPlateau et AfficherJoueur
+        /// </summary>
+        /// <param name="joueur"></param>
         private static void AfficherJoueur(string joueur)
         {
             Console.WriteLine("====================");
@@ -27,7 +31,6 @@ namespace POO2
             Console.WriteLine($"  {tableauAAfficher[6]}  |  {tableauAAfficher[7]}  |  {tableauAAfficher[8]} ");
             Console.WriteLine($"     |     |    ");
         }
-
         private static void Main(string[] args)
         {
             string[] tableau = new string[] { "0", "1", "2", "3", "4", "5", "6", "7", "8" };
