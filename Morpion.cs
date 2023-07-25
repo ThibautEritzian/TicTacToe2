@@ -8,13 +8,8 @@ namespace POO2
 {
     class Morpion 
     {
-        /// <summary>
-<<<<<<< HEAD
-        /// Afiche le tableau et le stock dans une variable AfficherPlateau et AfficherJoueur
-=======
-        /// Affichage donnée de joueur 
->>>>>>> 315e75bdcb3351238109e8327b75552ce2b638f2
-        /// </summary>
+        /// <summary>        /// Afiche le tableau et le stock dans une variable AfficherPlateau et AfficherJoueur
+        /// Affichage donnée de joueur         /// </summary>
         /// <param name="joueur"></param>
         private static void AfficherJoueur(string joueur)
         {
